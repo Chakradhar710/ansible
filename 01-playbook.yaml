@@ -1,0 +1,5 @@
+- name: ping the server
+  hosts: fronted
+  taske:
+  - name: ping the server
+    ansible.bulitin.ping:
