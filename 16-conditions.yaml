@@ -1,5 +1,5 @@
 - name: Playbook control using ansible facts
-  hsots: frontend
+  hosts: frontend
   become: yes
   tasks:
   - name: install nginx if redhat
